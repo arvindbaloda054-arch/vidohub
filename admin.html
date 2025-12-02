@@ -1,0 +1,26 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Admin • Vidohub</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar"><a href="index.html" class="brand">Vidohub Admin</a></header>
+
+<div class="adminPanel">
+  <h2>Upload Video for Homepage</h2>
+  <label class="filebtn">Choose Video
+    <input id="adminUpload" type="file" accept="video/*">
+  </label>
+  <input id="adminTitle" placeholder="Video Title">
+  <button id="adminSave">Save to Homepage</button>
+
+  <div id="adminMsg"></div>
+</div>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

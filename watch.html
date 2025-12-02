@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Watch • Vidohub</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a href="index.html" class="brand">Vidohub</a>
+</header>
+
+<div class="watch">
+  <video id="videoPlayer" controls></video>
+
+  <div class="upload-row">
+    <label class="filebtn">Upload
+      <input id="videoUpload" type="file" accept="video/*">
+    </label>
+    <input id="videoURL" placeholder="Paste direct video URL">
+    <button id="playURL">Play</button>
+  </div>
+
+  <h2 id="vtitle">Video Title</h2>
+
+  <div class="actions">
+    <button id="likeBtn">👍 Like</button>
+    <button id="subBtn">Subscribe</button>
+    <button id="followBtn">Follow</button>
+    <button id="shareBtn">Share</button>
+  </div>
+
+  <h3>Comments</h3>
+  <div id="commentList"></div>
+
+  <div class="commentBox">
+    <input id="commentInput" placeholder="Add a comment…">
+    <button id="commentSend">Send</button>
+  </div>
+
+</div>
+
+<script src="js/watch.js"></script>
+</body>
+</html>
